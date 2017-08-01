@@ -10,8 +10,33 @@ package queue;
  * @author Education Unlimited
  */
 public class Market {
-    ueue q;
+    Queue q;
+    double gains;
+    public Market(){
+        q= new Queue(); 
+        gains=0;
+    }
+    public void buyShares(int shares, double price){
+      for (int i= 0; i< shares; i++){
+          q.insert(price);
+      }
+       
+    }
+    public void sellShares(int shares, double price){
+        for(int i=0; i> shares; i++){
+             double buyPrice =q.remove(); 
+             gains+= price - buyPrice;  
+        }
+        
+        
+        
+
+        
+    }
+
+
+    
           
 }
     
-}
+
