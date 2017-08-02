@@ -20,7 +20,7 @@ public class App {
 
         while (userMarket != "quit") {
                     System.out.print("Would you like to either buy, sell, see gains, or quit? ");
-                    String userMarket2 = input.nextLine().toUpperCase();
+                   
             }
 
         }
