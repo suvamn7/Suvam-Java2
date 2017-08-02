@@ -28,15 +28,16 @@ public class Market {
              gains+= price - buyPrice;  
         }
         
-        
-        
-
-        
+    }
+    
+    public double getGains(){
+        return gains;
     }
 
 
     
           
 }
+
     
 
