@@ -1,0 +1,50 @@
+rules:
+adventure game with rooms to lead the user
+
+
+
+room format: 
+r followed by the name of the room
+one or more lines with the letter d for description of the room
+list of options preceeded by the letter o to do in the room
+tags for the room they lead to 
+
+options:
+sleep
+stay awake
+go to another room
+
+general options for the user:
+r to restart the game
+letter designated for options that the user can do in the room
+q to quit the whole program
+y to print out info on the room
+z to go back to the room
+
+rooms
+room one situation: This is the kitchen.
+options: eat, drink, or clean
+eat: donuts(3), peanut butter and jelly sandwich(2), or four cheese hot pocket(4)
+drink: water, milk, or orange juice
+clean: towel wipe, or borax
+
+room two situation: This is the living room
+options: watch tv, play ps4, or sleep on the couch
+watch tv: watching Keeping up with the Kardashians. You have been watching for one hour. You lost more brain cells than you had before.   
+play ps4: playing NBA 2k 17. You have been playing for two hours. Your MyCareer player is better than it was before. 
+sleep on the couch: sleeping on the uncomfortable coach. You slept for 30 minutes. 
+
+room three situation: This is your bedroom
+options: sleep on the bed, browse the internet, look out the window
+sleep on the bed: sleeping on the comfortable bed. You slept for 14 hours. 
+browse the internet: looking for a cheap Rolex watch. You were not able to find any :( .
+look out the window: looking at the trees. You realize that you have been looking outside for 30 minutes.                                                           
+
+code:
+
+functions, variable, classes
+doubly linked list data structure 
+work with nodes
+text file that will need to be used during the program
+
+http://introcs.cs.princeton.edu/java/42sort/
