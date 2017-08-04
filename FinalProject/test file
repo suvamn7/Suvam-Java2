@@ -1,23 +1,97 @@
-r room1
-d This is room one.
-d You are awake.
-o Go to sleep.
-t room2
-o Stay awake.
-t room1
+r kitchen
+d This is the kitchen
+o eat 
+t eating 
+o drink
+t drinking 
+o go to the living room
+t living room
 
-r room2
-d You are sleeping.
-o Stay asleep.
-t room2
-o Wake up.
-t room1
+r eating 
+o donuts
+t donuts 
+o peanut and jelly sandwich
+t pb and j
+o four cheese hot pocket
+t hp
 
-r room3
-d You are eating a sandwich. 
-o Keep eating sandwich.
-t room 1
-o Or not.
-t room 2
+r donuts
+o go to the living room 
+t living room 
+
+r pb and j
+o go to the living room
+t living room
+
+r hp
+o go to the living room
+t living room
+
+r drinking
+o milk 
+t milk
+o water 
+t water
+o orange juice
+t oj
+
+r milk
+o go to the living room
+t living room
+
+r water
+o go to the living room
+t living room
+
+r oj
+o go to the living room
+t living room
+
+r living room
+d This is the living room
+o watch tv
+t tv
+o play ps4
+t ps4
+o sleep on the couch
+t couch
+o go to your bedroom
+t bedroom
+
+r tv
+o go to your bedroom
+t bedroom
+
+r ps4
+o go to your bedroom
+t bedroom
+
+r couch
+o go to your bedroom
+t bedroom
+
+r bedroom
+o sleep on your bed
+t bed
+o browse the internet
+t internet
+o look out the window
+t window
+o go to the kitchen
+t kitchen
+
+r bed 
+o go to the kitchen
+t kitchen
+
+r internet
+o go to the kitchen
+t kitchen
+
+r window
+o go to the kitchen
+t kitchen
+
+
  
 
