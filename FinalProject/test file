@@ -13,3 +13,11 @@ t room2
 o Wake up.
 t room1
 
+r room3
+d You are eating a sandwich. 
+o Keep eating sandwich.
+t room 1
+o Or not.
+t room 2
+ 
+

@@ -70,7 +70,6 @@ class room {
         for (Option o : options) {
             //todo: Make it so it prints letter a: first option, letter b: second option, etc
             System.out.println(o.description);
-            System.out.println(o.tag);
         }
     }
 
