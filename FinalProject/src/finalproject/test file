@@ -1,23 +1,15 @@
-r start
-d You are in your house right now after coming back from school on a Friday afternoon. 
-d Last night, you only had four hours of sleep and right now you are free to do what 
-d you want to do.
-o Go to the kitchen. 
-t Kitchen
-o Go to the living room.
-t Living room.
-o Go to the bedroom.
-t Bedroom.
+r room1
+d This is room one.
+d You are awake.
+o Go to sleep.
+t room2
+o Stay awake.
+t room1
 
-r Kitchen
-d You are in the kitchen right now. You can either eat or drink.
-o eat 
-t 
-
-
-e eating
-d
-d
-d
-d
+r room2
+d You are sleeping.
+o Stay asleep.
+t room2
+o Wake up.
+t room1
 
